@@ -1,0 +1,28 @@
+# build & install folders
+build*/
+install/
+logs/
+.vscode
+# auto-generated files (below) from Qt Creator
+*.config
+*.creator*
+*.files
+*.includes
+CMakeLists.txt.user*
+
+.DS_Store
+
+# windows swap files
+*~
+
+tools/docs
+venv/
+
+# CLion build folder
+cmake-build-*
+# Clion IDE settings
+.idea
+
+# mavlink repo to generate mavlink-headers
+mavlink
+mavlink-headers

@@ -1,0 +1,9 @@
+[submodule "libs/MAVSDK"]
+	path = libs/MAVSDK
+	url = https://github.com/mavlink/MAVSDK.git
+[submodule "libs/ros_comm"]
+	path = libs/ros_comm
+	url = https://github.com/ros/ros_comm.git
+[submodule "libs/vicon_bridge"]
+	path = libs/vicon_bridge
+	url = https://github.com/ethz-asl/vicon_bridge.git

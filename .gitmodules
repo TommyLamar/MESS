@@ -7,3 +7,24 @@
 [submodule "libs/vicon_bridge"]
 	path = libs/vicon_bridge
 	url = https://github.com/ethz-asl/vicon_bridge.git
+[submodule "libs/geometry"]
+	path = libs/geometry
+	url = https://github.com/ros/geometry.git
+[submodule "libs/message_generation"]
+	path = libs/message_generation
+	url = https://github.com/ros/message_generation.git
+[submodule "libs/message_runtime"]
+	path = libs/message_runtime
+	url = https://github.com/ros/message_runtime.git
+[submodule "libs/common_msgs"]
+	path = libs/common_msgs
+	url = https://github.com/ros/common_msgs.git
+[submodule "libs/dynamic_reconfigure"]
+	path = libs/dynamic_reconfigure
+	url = https://github.com/ros/dynamic_reconfigure.git
+[submodule "libs/catkin"]
+	path = libs/catkin
+	url = https://github.com/ros/catkin.git
+[submodule "libs/diagnostics"]
+	path = libs/diagnostics
+	url = https://github.com/ros/diagnostics.git

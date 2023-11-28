@@ -28,3 +28,6 @@
 [submodule "libs/diagnostics"]
 	path = libs/diagnostics
 	url = https://github.com/ros/diagnostics.git
+[submodule "libs/raspicam_node"]
+	path = libs/raspicam_node
+	url = https://github.com/UbiquityRobotics/raspicam_node.git

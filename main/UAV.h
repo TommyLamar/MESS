@@ -3,14 +3,14 @@
 #ifndef UAV_H
 #define UAV_H
 
+#include <string>
 
-
-class UAV : private Vehicle {
+class UAV : public Vehicle {
     private:
-        String ip;
+        std::string ip;
 
     public:
-        String getIP();
+        std::string getIP();
 };
 
 #endif

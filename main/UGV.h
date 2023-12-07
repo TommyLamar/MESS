@@ -1,15 +1,16 @@
-#include<String>
-#include "Vehicle.h"
 #ifndef UGV_H
 #define UGV_H
 
+#include<string>
+#include "Vehicle.h"
 
-class UGV : private Vehicle {
+
+class UGV : public Vehicle {
     private:
-        String rosTopic;
+        std::string rosTopic;
 
     public:
-        String getRosTopic();
+        std::string getRosTopic();
 };
 
 #endif

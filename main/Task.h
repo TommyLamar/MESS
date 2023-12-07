@@ -1,19 +1,18 @@
-#include <String>
 #ifndef TASK_H
 #define TASK_H
-
+#include <string>
 
 class Task{
     private:
         float timeStamp;
-        String message;
-        String rosTopicPath;
-        String taskType;
+        std::string message;
+        std::string rosTopicPath;
+        std::string taskType;
     public:
         float getTimeStamp();
-        String getMessage();
-        String getTopic();
-        String getType;
+        std::string getMessage();
+        std::string getTopic();
+        std::string getType;
         void performTask();
 };
 

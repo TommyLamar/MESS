@@ -1,15 +1,18 @@
-#include "Sensor.h"
 #ifndef VEHICLE_H
 #define VEHICLE_H
 
+#include "Sensor.h"
+#include "SensorLL.h"
+#include <string>
 
 class Vehicle{
     private:
-        String viconID;
-        Sensor vehicleSensors[];
+        std::string viconID;
+        SensorLL vehicleSensors;
     public:
-        String getViconID();
-        Sensor* getVehicleSensors();
+        Vehicle(std::string);
+        std::string getViconID();
+        SensorLL getVehicleSensors();
 
 };
 

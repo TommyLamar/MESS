@@ -1,14 +1,13 @@
-#include <String>
 #ifndef SENSOR_H
 #define SENSOR_H
-
+#include <string>
 
 class Sensor{
     private:
-        String rosPackage;
+        std::string rosPackage;
         int refreshRate;
     public:
-        String getReading();
+        std::string getReading();
 };
 
 #endif
